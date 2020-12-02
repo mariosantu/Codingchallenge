@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+/* sfondo background */
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: 20% 20% 20%;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+/*2 background di fondo */
+.transparentbox {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 2%;
+  padding: 100px;
+  position: relative;
+}
+
+/*logo*/
+.logolim {
+  width: 240px;
+  margin-left: 100px;
+  margin-right: 126px;
+  display: inline-block;
+}
+
+header {
+  text-align: center;
+}
+
+/*intestazione*/
+h1 {
+  color: #4cc417;
+  margin-right: 24px;
+}
+
+/*background box navigazione*/
+nav {
+  background-color: #4cc417;
+  padding: 10px;
+  text-align: center;
+  margin-right: 74px;
+}
+
+/*info monopattini-positioning*/
+main h2 {
+  color: white;
+}
+
+/*spazio checkbox*/
+.space {
+  margin-right: 11px;
+}
+
+/*indirizzi+stato carica positioning*/
+main p {
+  color: white;
+  display: block;
+  line-height: 2;
+}
+
+main section {
+  margin: 20px 0;
+}
+
+
+/*percentuali carica 1-2-3*/
+.percentual {
+  height: 27px;
+  border-radius: 5px 5px 5px 5px;
+}
+.percentual1 {
+  background: orange;
+  width: 30%;
+}
+
+.percentual2 {
+  background: #4cc417;
+  width: 70%;
+}
+
+.percentual3 {
+  background: #c34a2c;
+  width: 10%;
+}
+
+.navbuttonpos{
+  margin-left: 64px;
+}
